@@ -899,3 +899,46 @@ img.img-responsive {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* Contact Methods */
+.contact-methods {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-methods .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+/* Footer Contact */
+.footer-contact {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.footer-contact p {
+    margin-bottom: 0.75rem;
+    color: #888;
+}
+
+.footer-contact i {
+    color: var(--green);
+    margin-right: 0.5rem;
+    width: 20px;
+    text-align: center;
+}
+
+.footer-contact a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.footer-contact a:hover {
+    color: var(--green);
+    text-decoration: underline;
+}
